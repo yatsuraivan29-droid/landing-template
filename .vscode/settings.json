@@ -1,0 +1,20 @@
+{
+  "emmet.includeLanguages": {
+    "javascript": "html",
+    "typescript": "html"
+  },
+  "html.format.templating": true,
+  "editor.quickSuggestions": {
+    "strings": true
+  },
+  "editor.tokenColorCustomizations": {
+    "textMateRules": [
+      {
+        "scope": "meta.template.expression.javascript",
+        "settings": {
+          "foreground": "#d4d4d4"
+        }
+      }
+    ]
+  }
+}

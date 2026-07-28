@@ -1,0 +1,104 @@
+:root{
+    --primary: #2563eb;
+    --secondary: #1e293b;
+
+    --text: #222;
+    --text-light: #666;
+
+    --background: #fff;
+
+    --container: 1200px;
+
+    --radius: 12px;
+
+    --transition: .3s ease;
+}
+
+/* ===== Reset ===== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    line-height: 1.5;
+    font-family: Arial, Helvetica, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+button,
+input,
+textarea,
+select {
+    font: inherit;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+/* ===== Variables ===== */
+
+/* ===== Base ===== */
+body {
+    font-family: Arial, sans-serif;
+    color: #222;
+    background: #fff;
+}
+
+section {
+    width: 100%;
+    padding: 80px 0;
+}
+
+section .container {
+    width: 100%;
+    max-width: var(--container);
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+section h2,
+section h1 {
+    margin-bottom: 16px;
+}
+
+section p {
+    margin-bottom: 16px;
+}
+
+section .content {
+    display: grid;
+    gap: 24px;
+}
+
+/* ===== Layout ===== */
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+/* ===== Components ===== */
+
+/* ===== Utilities ===== */
+
+/* ===== Responsive ===== */

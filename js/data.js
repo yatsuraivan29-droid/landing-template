@@ -1,27 +1,51 @@
 export const data = {
-  company: {
-    name: "",
-    slogan: "",
-    description: "",
-    phone: "",
-    email: "",
-    address: ""
-  },
+    company: {
+        name: "",
+        slogan: "",
+        description: "",
+        phone: "",
+        email: "",
+        address: "",
 
-  hero: {
-    title: "",
-    subtitle: "",
-    button: ""
-  },
+        logo: "",
+        favicon: "",
 
-  services: [],
+        social: {
+            facebook: "",
+            instagram: "",
+            telegram: "",
+            tiktok: "",
+        }
+    },
 
-  gallery: [],
+    hero: {
+        title: "",
+        subtitle: "",
+        button: "",
+        image: "",
+    },
 
-  reviews: [],
+    about: {
+        title: "",
+        description: "",
+        image: "",
+    },
 
-  social: {
-    facebook: "",
-    instagram: ""
-  }
+    services: [],
+
+    gallery: [],
+
+    reviews: [],
+
+    contacts: {
+        title: "",
+        map: "",
+        workTime: "",
+    },
+
+    seo: {
+        title: "",
+        description: "",
+        keywords: "",
+    }
 };
