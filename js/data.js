@@ -51,16 +51,20 @@ export const data = {
     },
 
     hero: {
-        title: "",
-        subtitle: "",
-        button: "",
-        image: "",
+        title: "Krása, ktorá zvýrazní vašu jedinečnosť.",
+        subtitle: "Profesionálna starostlivosť, moderné techniky a individuálny prístup. Doprajte si chvíľu relaxu a odíďte spokojní.",
+        image: "./images/hero-img.png",
     },
 
     about: {
-        title: "",
-        description: "",
-        image: "",
+        title: "O nás",
+        description: "Staráme sa o vašu krásu s dôrazom na kvalitu, profesionalitu a individuálny prístup.",
+        Advantages: [
+            "Profesionálny tím",
+            "Kvalitná kozmetika",
+            "Individuálny prístup"
+        ],
+        image: "./images/about-img.jpg",
     },
 
     services: [],
