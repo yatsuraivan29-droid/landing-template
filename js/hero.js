@@ -3,7 +3,7 @@
 export function hero() {
     return `
         <section id="hero">
-            <div class="container">
+            <div class="hero__container container">
                 <h1>Назва компанії</h1>
                 <p>Короткий опис компанії</p>
 

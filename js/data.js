@@ -3,11 +3,11 @@ export const data = {
         name: "",
         slogan: "",
         description: "",
-        phone: "",
+        phone: "tel:+421949364478",
         email: "",
         address: "",
 
-        logo: "",
+        logo: "Beauty",
         favicon: "",
 
         social: {
@@ -15,6 +15,38 @@ export const data = {
             instagram: "",
             telegram: "",
             tiktok: "",
+        }
+    },
+    
+    header: {
+        navigation: [
+                    {
+            title: "Home",
+            href: "#hero"
+        },
+        {
+            title: "About",
+            href: "#about"
+        },
+        {
+            title: "Services",
+            href: "#services"
+        },
+        {
+            title: "Gallery",
+            href: "#gallery"
+        },
+        {
+            title: "Reviews",
+            href: "#reviews"
+        },
+        {
+            title: "Contacts",
+            href: "#contacts"
+        }
+        ],
+        button: {
+            title: "zavolat",
         }
     },
 
@@ -47,5 +79,5 @@ export const data = {
         title: "",
         description: "",
         keywords: "",
-    }
+    },
 };
