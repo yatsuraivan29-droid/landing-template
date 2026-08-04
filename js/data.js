@@ -67,7 +67,28 @@ export const data = {
         image: "./images/about-img.jpg",
     },
 
-    services: [],
+    services: [
+    {
+        title: "Strihanie",
+        description: "Moderné účesy prispôsobené vášmu štýlu.",
+        image: "./images/services/service-1.webp"
+    },
+    {
+        title: "Farbenie",
+        description: "Profesionálne farbenie s kvalitnými produktmi.",
+        image: "./images/services/service-2.webp"
+    },
+    {
+        title: "Styling",
+        description: "Perfektný vzhľad na každú príležitosť.",
+        image: "./images/services/service-3.webp"
+    },
+    {
+        title: "Starostlivosť",
+        description: "Regeneračné procedúry pre zdravé vlasy.",
+        image: "./images/services/service-4.webp"
+    }
+    ],
 
     gallery: [],
 
