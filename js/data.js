@@ -37,10 +37,6 @@ export const data = {
             href: "#gallery"
         },
         {
-            title: "Reviews",
-            href: "#reviews"
-        },
-        {
             title: "Contacts",
             href: "#contacts"
         }
