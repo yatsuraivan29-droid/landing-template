@@ -76,21 +76,46 @@ export const data = {
     {
         title: "Farbenie",
         description: "Profesionálne farbenie s kvalitnými produktmi.",
-        image: "./images/services/service-2.webp"
+        image: "./images/services/service-2.jpg"
     },
     {
         title: "Styling",
         description: "Perfektný vzhľad na každú príležitosť.",
-        image: "./images/services/service-3.webp"
+        image: "./images/services/service-3.jpg"
     },
     {
         title: "Starostlivosť",
         description: "Regeneračné procedúry pre zdravé vlasy.",
-        image: "./images/services/service-4.webp"
+        image: "./images/services/service-4.jpg"
     }
     ],
 
-    gallery: [],
+    gallery: [
+         {
+        image: "./images/gallery/gallery-1.jpg",
+        alt: "Účes 1"
+    },
+    {
+        image: "./images/gallery/gallery-1.jpg",
+        alt: "Účes 2"
+    },
+    {
+        image: "./images/gallery/gallery-1.jpg",
+        alt: "Účes 3"
+    },
+    {
+        image: "./images/gallery/gallery-1.jpg",
+        alt: "Účes 4"
+    },
+    {
+        image: "./images/gallery/gallery-1.jpg",
+        alt: "Účes 5"
+    },
+    {
+        image: "./images/gallery/gallery-1.jpg",
+        alt: "Účes 6"
+    }
+    ],
 
     reviews: [],
 

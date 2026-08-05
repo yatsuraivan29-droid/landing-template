@@ -68,7 +68,7 @@ body {
 .container {
     width: 100%;
     max-width: var(--container);
-    padding: 2px 20px;
+    padding: 10px 20px;
     margin: 0 auto;
 }
 .button {
@@ -96,7 +96,7 @@ body {
 }
 @media screen and (max-width: 768px) {
     .container{
-        padding: 2px 5px;
+        padding: 10px 5px;
     }
     .button {
         padding: 2px 20px;
@@ -175,7 +175,6 @@ body {
     background-color: var(--primary);
 }
 .about__container{
-    padding-top: 10px;
     color: var(--secondary);
     display: flex;
     justify-content: starts;
@@ -225,6 +224,88 @@ body {
         width: 100%;
     }
 }
+/* ===== Services ===== */
+.services{}
+.serveces__container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    text-align: center;
+}
+.services__title{
+
+}
+.services__subtitle{}
+.services__list{
+    min-height: 400px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+.services__item{
+    max-width: 250px;
+    min-height: 400px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.services__image{
+    width: 100%;
+    height: 100%;
+}
+.services__image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.services__item-title{}
+.services__item-description{}
+@media screen and (max-width: 768px) {
+    .serveces__container{
+        gap: 10px;
+    }
+}
+/* ===== Gallery ===== */
+.gallery{
+    background-color: var(--primary);
+    color: var(--secondary);
+}
+.gallery__container{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+.gallery__title{}
+.gallery__subtitle{}
+.gallery__list{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+.gallery__item{
+    max-width: 300px;
+}
+.gallery__item img{
+    height: 100%;
+}
+@media screen and (max-width: 768px){
+    .gallery__container{
+        margin-top: 10px;
+        gap: 10px;
+    }
+    .gallery__list{
+        gap: 10px;
+    }
+}
+/* ===== Reviews ===== */
+
 
 /* ===== Utilities ===== */
 

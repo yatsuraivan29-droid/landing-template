@@ -8,7 +8,9 @@ export function services(data) {
             <div class="services__list">
                 ${data.services.map(service => `
                     <div class="services__item">
-                        <img src="${service.image}" alt="${service.title}" class="services__image">
+                        <div class="services__image">
+                            <img src="${service.image}" alt="${service.title}">
+                        </div>
                         <h3 class="services__item-title">${service.title}</h3>
                         <p class="services__item-description">${service.description}</p>
                     </div>
