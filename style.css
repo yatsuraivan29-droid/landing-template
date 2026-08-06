@@ -35,7 +35,7 @@ body {
 
 img {
     display: block;
-    max-width: 100%;
+    width: 100%;
 }
 
 a {
@@ -369,6 +369,7 @@ body {
     max-width: 300px;
 }
 .gallery__item img{
+    object-fit: cover;
     transition: .3s ease;
     height: 100%;
 }
