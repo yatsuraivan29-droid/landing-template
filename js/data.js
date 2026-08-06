@@ -3,8 +3,8 @@ export const data = {
         name: "",
         slogan: "",
         description: "",
-        phone: "tel:+421949364478",
-        email: "",
+        phone: "tel:+421900123456",
+        email: "info@beautysalon.sk",
         address: "",
 
         logo: "Beauty",
@@ -116,10 +116,32 @@ export const data = {
     reviews: [],
 
     contacts: {
-        title: "",
-        map: "",
-        workTime: "",
+    title: "Kontaktujte nás",
+    subtitle: "Máte otázky alebo si chcete rezervovať termín? Kontaktujte nás ešte dnes.",
+
+    phone: "+421 900 123 456",
+    email: "info@beautysalon.sk",
+
+    address: "Hlavná 123, Bratislava",
+
+    workTime: {
+        monday: "09:00 - 18:00",
+        tuesday: "09:00 - 18:00",
+        wednesday: "09:00 - 18:00",
+        thursday: "09:00 - 18:00",
+        friday: "09:00 - 18:00",
+        saturday: "09:00 - 14:00",
+        sunday: "Zatvorené"
     },
+
+    social: {
+        facebook: "",
+        instagram: "",
+        tiktok: ""
+    },
+
+    map: `<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2660.837718916696!2d17.100711775580322!3d48.1712088488203!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x476c8c03684142dd%3A0xf72d85217db8bc30!2sHlavn%C3%A1%20123%2C%20831%2001%20Bratislava!5e0!3m2!1sru!2ssk!4v1786004679126!5m2!1sru!2ssk" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>`
+},
 
     seo: {
         title: "",
