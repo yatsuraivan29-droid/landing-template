@@ -35,6 +35,7 @@ function openMenu(){
 const burger = document.getElementById('burger');
 const hederMenu = document.getElementById('hederMenu');
 let burgerLisen = false
+
 window.addEventListener('click', (event) => {
     if (burger.contains(event.target)){
         if (!burgerLisen){
