@@ -35,17 +35,19 @@ function openMenu(){
 const burger = document.getElementById('burger');
 const hederMenu = document.getElementById('hederMenu');
 let burgerLisen = false
-
-burger.addEventListener("click",() => {
-    if (!burgerLisen){
+window.addEventListener('click', (event) => {
+    if (burger.contains(event.target) || !hederMenu.contains(event.target)){
+        if (!burgerLisen){
         burgerLisen = !burgerLisen
         burger.classList.add('burger-menu-open')
         hederMenu.classList.add('header__menu-open')
     } else {
         burgerLisen = !burgerLisen
         burger.classList.remove('burger-menu-open')
-    hederMenu.classList.remove('header__menu-open')
+        hederMenu.classList.remove('header__menu-open')
     }
-    
-})
+    }
+
+});
+
 }
