@@ -610,14 +610,22 @@ body {
         text-align: center;
     }
     .footer__logo{
+        margin-bottom: 5px;
         font-size: 32px;
     }
     .footer__content{
         text-align: center;
         
     }
+    .footer__subtitle{
+        font-size: 14px;
+    }
     .footer__contacts{
         align-items: center;
+        font-size: 14px;
+    }
+    .footer__text{
+        font-size: 16px;
     }
 }
 /* ===== Responsive ===== */
