@@ -36,7 +36,7 @@ const burger = document.getElementById('burger');
 const hederMenu = document.getElementById('hederMenu');
 let burgerLisen = false
 window.addEventListener('click', (event) => {
-    if (burger.contains(event.target) || !hederMenu.contains(event.target)){
+    if (burger.contains(event.target)){
         if (!burgerLisen){
         burgerLisen = !burgerLisen
         burger.classList.add('burger-menu-open')
@@ -47,7 +47,6 @@ window.addEventListener('click', (event) => {
         hederMenu.classList.remove('header__menu-open')
     }
     }
-
 });
 
 }
